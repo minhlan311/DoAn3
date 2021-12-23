@@ -1,0 +1,781 @@
+body{
+	background-color: grad;
+	margin: 0px;
+	display: block;
+	font-family: arial;
+	background-image: url('logo/anhnen1.png');
+	background-repeat: repeat;
+	background-position: center;
+	position:relative;
+
+}	
+
+#shopping{
+		width: 91px;height: 20px;
+		float: left;
+		padding-left: 400px;
+}
+
+div{
+	display:block;
+}
+i{
+	font-size:30px;
+	color: #F7EE48;
+}
+*{
+	box-sizing: border-box;
+}
+#header{
+
+	width: 100%;
+	height: 60px;
+	background-color: #796C97;
+	border: 1px solid #5062EB;
+	position:fixed;
+	z-index: 15;
+	border-radius: 0px 0px 30px 0px;
+}
+
+#nav1{
+	float: left;
+}
+#nav2{
+	float: left;
+    position: relative;
+    top: 10px;
+	width: 23%;
+}
+.search{
+	position: relative;
+	margin: 0 auto;
+	height: 35px;
+	width: 290px;
+	background-color: white;
+	margin: 2px auto 0px 10px;
+	border-radius: 20px;
+}
+.search input{
+	border: 0px;
+	outline: none;
+	width: 290px;
+	height: 35px;
+	padding-left: 10px;
+	font-size: 15px;
+	border-radius: 20px;	
+}
+.search button{
+	position: absolute;
+	border: 1px ;
+	margin: 0px;
+	background-color: white;
+	top: 2px;
+	right: 13px;
+
+}
+.search button i{
+	width: 20px;height: auto;
+	vertical-align: middle;
+	color:rgb(146, 106, 106);
+}
+.cart-zone{
+    width: 50px; height: 50px;
+	background-color: #796C97;
+    border-radius: 30px 0px 30px 10px;
+    position: absolute;
+    top: 0px;right: 10px;
+	
+}
+.cart-label{
+    line-height: 50px;
+    position:absolute;
+    top: 0px;left: 20px;
+}
+.cart-img{
+    width: 36px;
+    position: absolute;
+	top:10px;right: 10px;
+    float: left;
+}
+.cart-amount{
+    line-height: 20px;
+    width: 20px;height: 20px;
+    top:10px;right: 10px;
+    position: absolute;
+    color:#D43D86;
+    border-radius:50%;
+    background-color:#F7EE48;
+}	
+
+
+#menumoi
+{
+	position: absolute;
+	width:56%;
+	height: 60px;
+	left:443px;
+	float: left;
+	
+}
+
+#menu{
+	padding-top: 9px;
+	border-radius: 5px;
+	height: 40px;
+	width: 563px;
+	margin: auto;
+	background-color:#796C97;
+
+}
+
+#menu ul{
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+#menu ul li{
+	float: left;
+	line-height: 40px;
+	font-size: 20px;
+	margin-right: 0px;
+}
+#menu ul li i{
+	font-size: 30px; 
+	width: 30px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	float: left; 
+	color: #c7b985bf;
+	}
+#menu ul li a{
+	position: relative;
+	display: block;
+	text-decoration: none;
+	color:#eac896;
+	padding: 0px 30px;
+	width: 100%;
+}
+
+#menu ul li a:hover{
+	
+	color:#e7ba58;
+}
+
+
+#menu ul ul{
+	position: absolute;
+	width: 200px;
+	display: none;
+	background-image: url('nonamoi/quanao (5).jpg');
+	z-index: 17;
+	background-size: 170%;
+	border-radius: 15px;
+
+}
+#menu li li{
+	float: none;
+}
+#menu ul li:hover ul{
+	display: block;
+	
+
+}
+#menu li li a{
+	color: rgb(123, 175, 235);
+	font-size: 13px;
+	border-radius: 15px;
+}
+#menu li li a:hover{
+	color:#115cce;
+	background-color: rgb(178, 192, 194);
+	font-size: 15px;
+}
+#menu li li a.showall
+{
+	color: rgb(255, 0, 0);
+}
+
+#lienhe
+{
+	width: 100%;
+	height: 35px;
+	background-color:#eceaf3;
+	position: relative;
+	color:#6442D4;
+	z-index: 14;
+	top:58px;
+	overflow: hidden;
+}
+#sdt
+{
+	position: absolute;
+	left: 30px;
+	top: 0px;
+	font-size: 13px;
+}
+
+#like
+{
+	position: absolute;
+	left: 40%;
+	top: 0px;
+	font-size: 13px;
+	
+}
+#like a{text-decoration: none;}
+#acccound
+{
+	position: absolute;
+	right: 5%;
+	top: 10px;
+	font-size: 13px;
+}	
+#acccound a{
+	text-decoration: none;
+	color:hotpink ;
+}
+#content {
+    max-width: 3000px;
+    min-height: 500px;
+    margin: auto;
+    text-align: center;
+	margin-top:30px;
+
+}
+
+
+
+
+/*------ SLIDE--------- */
+
+#slidemoi
+  {
+	width: 75%;
+	height: auto;
+	margin: 0px auto;
+	margin-top:60px;
+  }
+#slider{
+	width: 100%;
+	height: auto;
+	background-color: #796C97;
+	overflow: hidden;
+	position: relative;
+  }
+.slide{
+	  width: 100%;
+	  height: auto;
+  }
+#slider a #prev
+  {
+	color:rgb(114, 139, 139);
+	position: absolute;
+	left:10px;
+	top : 45%;
+	font-size: 60px;
+  } 
+  #slider a #next
+  {
+	color:rgb(114, 139, 139);
+	position: absolute;
+	right: 10px;
+	top : 45%;
+	font-size: 60px;
+  } 
+  
+  
+#bobo
+{
+	width:100%;
+	height:100px;
+	background-color: rgb(250, 250, 240);
+	margin: 0 auto;
+	padding: 10px 0px;
+}
+.v1
+{
+	background-color:rgb(250, 250, 240);
+	width: 32.7%;
+	height: 60px;
+	float:left;
+	border-left: 1px solid rgb(194, 216, 208);
+	margin-top: 0px;
+	padding-top: 10px ;
+	font-family:'Times New Roman', Times, serif;
+}
+.v2
+{
+	border-left: 0px
+
+}
+.c1
+{
+	font-size: 16px;
+}
+.c2{
+	font-size: 13px;
+	padding-left: 11px;
+	color:rgb(106, 136, 125)
+}
+
+#icon
+{
+	float: right;
+}
+
+#live /* cho dong chữ San Pham hot trong tuan */
+{
+	font-size: 22px;
+	font-family:Arial;
+	text-align: center;
+	line-height: 50px;
+	margin: 60px 20px 20px 20px;
+	color:rgb(39, 28, 26);
+}
+#live span
+{
+	border-bottom: 2px solid #2d2e20;
+}
+
+#main1
+{
+	width:85%;
+	height: auto;
+	background-color:pink;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid rgb(207, 171, 155);
+	
+}
+
+
+
+#main2
+{
+	width:85%;
+	height:auto;
+	background-color:pink;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	border: 2px solid rgb(207, 171, 155);
+	
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+
+}
+/*for mobile*/
+@media only screen and (max-width: 1000px) {
+	.col-s-1{width:8.33%;}
+	.col-s-2{width:16.66%;}
+	.col-s-3{width:25%;}
+	.col-s-4{width:33.33%;}
+	.col-s-5{width:41.66%;}
+	.col-s-6{width:50%;}
+	.col-s-7{width:58.33%;}
+	.col-s-8{width:66.66%;}
+	.col-s-9{width:75%;}
+	.col-s-10{width:83.33%;}
+	.col-s-11{width:91.66%;}
+	.col-s-12{width:100%;}
+	
+
+	#menu ul li a
+	{
+		padding-left: 0px;
+	}
+	#menumoi, #like, #face
+	{
+		display: none;
+	}
+	#slider a #prev,  #slider a #next
+	{
+		font-size: 30px;
+	}
+
+
+}
+/*for medium diveces*/
+@media only screen and (min-width: 1000px) {
+	.col-m-1{width:8.33%;}
+	.col-m-2{width:16.66%;}
+	.col-m-3{width:25%;}
+	.col-m-4{width:33.33%;}
+	.col-m-5{width:41.66%;}
+	.col-m-6{width:50%;}
+	.col-m-7{width:58.33%;}
+	.col-m-8{width:66.66%;}
+	.col-m-9{width:75%;}
+	.col-m-10{width:83.33%;}
+	.col-m-11{width:91.66%;}
+	.col-m-12{width:100%;}
+}
+
+/*for large divices*/
+
+.col-m-3 , .col-s-6{
+	background-color: #EAEAC8;
+	 min-height: 200px;
+	 float:left;
+	 margin: auto;
+}
+
+
+
+
+
+/* footer-------------------- */
+
+#footer{
+border-radius: 5px;
+font-size: 13px;
+Color: #444444;
+font-family:"Helvetica Neue", Helvetica, Roboto, "Droid Sans", Arial, sans-serif;
+margin-top: 30px;
+width: 100%; 
+height:410px; 
+background-color: white;
+border-top: 2px solid rgb(223, 216, 191);
+}
+#footer .col-m-3{
+	background-color: #FFF;
+}
+#footer a{
+	text-decoration: none;
+	color: #0000ff;
+}
+#footer1
+{
+	margin: auto;
+	background-color: #0000ff;
+	width: 90%;
+
+}
+
+
+#face
+{
+	padding:0px;
+	position: relative;
+	right:0px;
+	
+
+}
+#face a{
+	color: #90d153;
+	text-decoration: none;
+	position: absolute;
+	 padding: 80px 0 0 10px;
+	 right: 20px;
+	 opacity: 0.8;
+	 
+}
+#face h4{
+	margin: 0px;
+	
+}
+#face i
+{
+	color:#4D69A2;
+	 font-size:20px;
+}
+
+#face img{
+	width: 350px;
+	 height: 170px;
+	 border-radius: 10px;
+	 border: 2px solid rgb(229, 230, 221);
+}
+
+#m1
+{
+	background-image: url('nonamoi/quanao (11).JPG');
+}
+#camket
+{
+	opacity: 0.8;
+	color:#444444;
+}
+#camket h2{
+    color:rgb(216, 204, 30);
+}
+#footer1 h3{
+	font-size: 16px;
+    color:#444444;
+}
+#toptimkiem{
+	margin: auto;
+	padding: 50px 0px 0px 10%;
+	font-size: 14px;
+}
+#toptimkiem label{
+	padding-left:10%;
+}
+
+
+
+
+
+
+
+/* Phần order sản phẩm */
+/* phần main */
+#mainmain{
+	margin: auto;
+	width: 1180px;
+	height: 3300px;
+	background-color: #F5F5F5;
+
+}
+#main
+{
+	
+	width: 100%;
+	height: 620px;
+	background-color: white;
+
+}
+#na1
+{
+	width: 100%;
+	height: 40px;
+
+}
+#na1 ul{
+	list-style: none;
+}
+#na1 ul li{
+	float:left;
+	padding-right:10px;
+	padding-top: 10px;
+}
+#na1 i{
+	float: left;
+	color:tomato;
+	padding: 5px;
+	margin-right: 30px;
+}
+.main1
+{
+	width: 527px;
+	height: auto;
+	background-color:yellowgreen;
+	margin-top: 20px;
+	float: left;
+}
+.main1 img{
+	width: 500px;
+	height: auto;
+	
+}
+
+.main2
+{
+	color:rgb(83,72,58);
+	width: 608px;
+	height: 530px;
+	margin-top: 20px;
+	margin-left: 35px;
+	float: left;
+	
+
+}
+h1{
+	font-size: 25px arial, tahoma;
+
+}
+#hangsao
+{
+	width: 608px;
+	height: 43px;
+	position:relative;
+	border-bottom: 1px solid sandybrown;
+}
+#sao
+{
+	padding: 5px 10px 0 0;
+	font-size: 14px;
+	float: left;
+	border-right: 2px solid rgb(131, 124, 128);
+}
+
+#thuonghieu
+{
+	margin:10px 0 0 20px;
+	font-size: 14px arial;
+	width: 300px;
+	height: 17px;
+	float: left
+
+}
+#chiase
+{
+	position:absolute;
+	right: 10px;
+}
+.button button
+{
+	font-size: 18px;
+	padding:5px;
+	color: #1eacff;
+	border-radius: 50%;
+	border: 1px solid rgb(39, 65, 34);
+	margin-left: 8px;
+	background-color: rgb(255, 255, 255);
+}
+
+.button button.bactive{
+    color: white;
+    background-color: #1eacff;
+}  
+
+h4 a,h4 span{
+	color:tomato;
+}
+h1 span
+{
+	margin-left: 50px;
+	color: red;
+
+}
+h5{color:rgb(43, 94, 54);}
+
+.giaohang
+{
+	width: 588px;
+	height: 55px;
+	background-color:tomato;
+}
+.btn-buy
+{
+	width: 240px;
+	height: 47px;
+	border-radius: 10px;
+	color:white;
+	outline: none;
+	background-color: rgb(219, 55, 55);
+	border: 0;
+	opacity: 0.7;
+}
+.btn-buy:hover
+{
+	cursor: pointer;
+	opacity: 1;
+}
+.btn-view
+{
+	width: 240px;
+	height: 47px;
+	border-radius: 10px;
+	color:white;
+	background-color: rgb(109, 221, 44);
+	border: 0;
+	opacity: 0.7;
+}
+.btn-view:hover{
+	cursor: pointer;
+	opacity: 1;
+
+}
+.oto  
+{
+	float: left;
+	width:150px;
+	height: 55px;
+	margin-right: 40px;
+	border-right: 1px solid aquamarine;
+}
+.oto i{
+	font-size: 30px;
+}
+.chinhhang{
+	border-right: 0px;
+	padding-right: 0px;
+}
+#thongtin{
+	margin-top:50px;
+	width:950px;
+	height: auto;
+	float: left;
+	background-color: white;
+}
+#dd
+{
+	width: 950px;
+	height: 140px;
+
+	border-bottom: 2px solid aquamarine;
+}
+.kieudang
+{
+	float: left;
+	width: 363px;
+	height: 90px;
+}
+#thongtin span{
+	font-size: 15px;
+	font-weight: bold;
+}
+#anhct
+{
+	width: 950px;
+	height: 950px;
+	background-color: #f5ebeb;
+}
+#anhct img{
+	width: 470px;
+	height: 470px;
+	float:left;
+	padding:10px;
+}
+#thongtins h3{
+	color:rgb(145, 69, 69);
+}
+#c{
+	width: 390px;
+	margin: auto;
+}
+#Sanphamtuongtu
+{
+	margin-top:50px;
+	background-color: white;
+	margin-left: 17px;
+	float: left;
+	width:210px;
+	height: auto;
+}
+.sptt
+{
+	width: 189px;
+	height: 30px;
+	margin-left:10px;
+	border-bottom: 2px solid slategrey;
+}
+.spsp
+{
+	width:190px;
+	height:106px;
+}
+.spsp img{
+	width: 90px;
+	float: left;
+}
+.ttt
+{
+	width: 100px;
+	float: left;
+}
+.ttt h5{
+	color: red;
+	margin: 0px;
+}
+.ttt s{
+	font-size: 12px;
+}

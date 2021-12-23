@@ -1,0 +1,493 @@
+body {
+	background-color: grad;
+	margin: 0px;
+	display: block;
+	font-family: arial;
+	background-image: url('~/Assets/images/logo/anhnen1.png');
+	background-repeat: repeat;
+	background-position: center;
+	position: relative;
+}	
+
+#shopping{
+		width: 91px;height: 20px;
+		float: left;
+		padding-left: 400px;
+}
+
+div{
+	display:block;
+}
+i{
+	font-size:30px;
+	color: #F7EE48;
+}
+*{
+	box-sizing: border-box;
+}
+#header{
+
+	width: 100%;
+	height: 60px;
+	background-color: #796C97;
+	border: 1px solid #5062EB;
+	position:fixed;
+	z-index: 15;
+	border-radius: 0px 0px 30px 0px;
+}
+
+#nav1{
+	float: left;
+}
+#nav2{
+	float: left;
+    position: relative;
+    top: 10px;
+	width: 23%;
+}
+.search{
+	position: relative;
+	margin: 0 auto;
+	height: 35px;
+	width: 290px;
+	background-color: white;
+	margin: 2px auto 0px 10px;
+	border-radius: 20px;
+}
+.search input{
+	border: 0px;
+	outline: none;
+	width: 290px;
+	height: 35px;
+	padding-left: 10px;
+	font-size: 15px;
+	border-radius: 20px;	
+}
+.search button{
+	position: absolute;
+	border: 1px ;
+	margin: 0px;
+	background-color: white;
+	top: 2px;
+	right: 13px;
+
+}
+.search button i{
+	width: 20px;height: auto;
+	vertical-align: middle;
+	color:rgb(146, 106, 106);
+}
+.cart-zone{
+    width: 50px; height: 50px;
+	background-color: #796C97;
+    border-radius: 30px 0px 30px 10px;
+    position: absolute;
+    top: 0px;right: 10px;
+	
+}
+.cart-label{
+    line-height: 50px;
+    position:absolute;
+    top: 0px;left: 20px;
+}
+.cart-img{
+    width: 36px;
+    position: absolute;
+	top:10px;right: 10px;
+    float: left;
+}
+.cart-amount{
+    line-height: 20px;
+    width: 20px;height: 20px;
+    top:10px;right: 10px;
+    position: absolute;
+    color:#D43D86;
+    border-radius:50%;
+    background-color:#F7EE48;
+}	
+
+
+#menumoi
+{
+	position: absolute;
+	width:56%;
+	height: 60px;
+	left:443px;
+	float: left;
+	
+}
+
+#menu{
+	padding-top: 9px;
+	border-radius: 5px;
+	height: 40px;
+	width: 563px;
+	margin: auto;
+	background-color:#796C97;
+
+}
+
+#menu ul{
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+#menu ul li{
+	float: left;
+	line-height: 40px;
+	font-size: 20px;
+	margin-right: 0px;
+}
+#menu ul li i{
+	font-size: 30px; 
+	width: 30px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	float: left; 
+	color: #c7b985bf;
+	}
+#menu ul li a{
+	position: relative;
+	display: block;
+	text-decoration: none;
+	color:#eac896;
+	padding: 0px 30px;
+	width: 100%;
+}
+
+#menu ul li a:hover{
+	
+	color:#e7ba58;
+}
+
+
+	#menu ul ul {
+		position: absolute;
+		width: 200px;
+		display: none;
+		background-image: url('/Assets/images/nonamoi/quanao (5).jpg');
+		z-index: 17;
+		background-size: 170%;
+		border-radius: 15px;
+	}
+#menu li li{
+	float: none;
+}
+#menu ul li:hover ul{
+	display: block;
+	
+
+}
+#menu li li a{
+	color: rgb(123, 175, 235);
+	font-size: 13px;
+	border-radius: 15px;
+}
+#menu li li a:hover{
+	color:#115cce;
+	background-color: rgb(178, 192, 194);
+	font-size: 15px;
+}
+#menu li li a.showall
+{
+	color: rgb(255, 0, 0);
+}
+
+#lienhe
+{
+	width: 100%;
+	height: 35px;
+	background-color:#eceaf3;
+	position: relative;
+	color:#6442D4;
+	z-index: 14;
+	top:58px;
+	overflow: hidden;
+}
+#sdt
+{
+	position: absolute;
+	left: 30px;
+	top: 0px;
+	font-size: 13px;
+}
+
+#like
+{
+	position: absolute;
+	left: 40%;
+	top: 0px;
+	font-size: 13px;
+	
+}
+ #like a{text-decoration: none;} /*xoa gach chan */
+#acccound
+{
+	position: absolute;
+	right: 5%;
+	top: 10px;
+	font-size: 13px;
+}	
+#acccound a{
+	text-decoration: none;
+	color:hotpink ;
+}
+#content {
+    max-width: 3000px;
+    min-height: 500px;
+    margin: auto;
+    text-align: center;
+	margin-top:30px;
+
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+
+}
+/*for mobile*/
+@media only screen and (max-width: 1000px) {
+	.col-s-1{width:8.33%;}
+	.col-s-2{width:16.66%;}
+	.col-s-3{width:25%;}
+	.col-s-4{width:33.33%;}
+	.col-s-5{width:41.66%;}
+	.col-s-6{width:50%;}
+	.col-s-7{width:58.33%;}
+	.col-s-8{width:66.66%;}
+	.col-s-9{width:75%;}
+	.col-s-10{width:83.33%;}
+	.col-s-11{width:91.66%;}
+	.col-s-12{width:100%;}
+	
+
+	#menu ul li a
+	{
+		padding-left: 0px;
+	}
+	#menumoi, #like, #face
+	{
+		display: none;
+	}
+	#slider a #prev,  #slider a #next
+	{
+		font-size: 30px;
+	}
+
+
+}
+/*for medium diveces*/
+@media only screen and (min-width: 1000px) {
+	.col-m-1{width:8.33%;}
+	.col-m-2{width:16.66%;}
+	.col-m-3{width:25%;}
+	.col-m-4{width:33.33%;}
+	.col-m-5{width:41.66%;}
+	.col-m-6{width:50%;}
+	.col-m-7{width:58.33%;}
+	.col-m-8{width:66.66%;}
+	.col-m-9{width:75%;}
+	.col-m-10{width:83.33%;}
+	.col-m-11{width:91.66%;}
+	.col-m-12{width:100%;}
+}
+
+/*for large divices*/
+
+.col-m-3 , .col-s-6{
+	background-color: #EAEAC8;
+	 min-height: 200px;
+	 float:left;
+	 margin: auto;
+}
+
+
+/* footer-------------------- */
+
+#footer{
+border-radius: 5px;
+font-size: 13px;
+Color: #444444;
+font-family:"Helvetica Neue", Helvetica, Roboto, "Droid Sans", Arial, sans-serif;
+margin-top: 30px;
+width: 100%; 
+height:410px; 
+background-color: white;
+border-top: 2px solid rgb(223, 216, 191);
+}
+#footer .col-m-3{
+	background-color: #FFF;
+}
+#footer a{
+	text-decoration: none;
+	color: #0000ff;
+}
+#footer1
+{
+	margin: auto;
+	background-color: #0000ff;
+	width: 90%;
+
+}
+
+
+#face
+{
+	padding:0px;
+	position: relative;
+	right:0px;
+	
+
+}
+#face a{
+	color: #90d153;
+	text-decoration: none;
+	position: absolute;
+	 padding: 80px 0 0 10px;
+	 right: 20px;
+	 opacity: 0.8;
+	 
+}
+#face h4{
+	margin: 0px;
+	
+}
+#face i
+{
+	color:#4D69A2;
+	 font-size:20px;
+}
+
+#face img{
+	width: 350px;
+	 height: 170px;
+	 border-radius: 10px;
+	 border: 2px solid rgb(229, 230, 221);
+}
+
+#m1 {
+	background-image: url('~/Assets/images/nonamoi/quanao (11).JPG');
+}
+#camket
+{
+	opacity: 0.8;
+	color:#444444;
+}
+#camket h2{
+    color:rgb(216, 204, 30);
+}
+#footer1 h3{
+	font-size: 16px;
+    color:#444444;
+}
+#toptimkiem{
+	margin: auto;
+	padding: 50px 0px 0px 10%;
+	font-size: 14px;
+}
+#toptimkiem label{
+	padding-left:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phần order sản phẩm */
+/* phần main */
+#main
+{
+	margin: auto;
+	width: 1180px;
+	height: 1320px;
+	background-color: white;
+    color:rgb(56, 52, 0);
+}
+#na1
+{
+	width: 100%;
+	height: 40px;
+    background-color: #f1f1d2;
+}
+#na1 ul{
+	list-style: none;
+}
+#na1 ul li{
+	float:left;
+	padding-right:10px;
+	padding-top: 10px;
+}
+#na1 i{
+	float: left;
+	color:rgb(199, 176, 172);
+	padding: 5px;
+	margin-right: 30px;
+}
+#main1
+{
+    width: 1068px;
+    height: 1200px;
+    margin: auto;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.product{
+    width: 264px;
+    height: 365px;
+    background-color: #f7f3c5;
+    float: left;
+    margin: 10px 1px;
+    font-family: inherit;
+	border-radius: 2px;
+	border: 2px solid rgb(204, 213, 221);
+	
+}
+.product:hover{
+	background-color: #f5eb84;
+}
+.product a{
+    text-decoration: none;
+}
+.anhanh
+{
+	width:260px;
+	height:260px;
+	overflow: hidden;
+	background-color: #796C97;
+}
+.product img{
+   width:260px;
+	height:260px;
+   
+}
+.product img:hover{
+	transform: scale(1.2,1.2);
+}
+.thongtin
+{
+    color:rgb(39, 49, 44);
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(68, 70, 85);
+}
+.thongtin h3{
+	color:#30c49f;
+}
+.gia
+{
+    color:rgb(207, 34, 34);
+    padding-left: 20px;
+}

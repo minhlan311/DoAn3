@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_Layout_NoNa.cshtml";
+}
+<link href="~/Assetsss/css/ro.css" rel="stylesheet" />
+<h2>GioHang</h2>
+<div id="content" style="width: 100%;height: 1000px; background-color: rgb(255, 255, 255);">
+    <br /><span id="gio">GIỎ HÀNG</span><br />
+    <div class="order-detail">
+
+        <div id="thongtinro">
+            <div class="namero ro1">Tên sản phẩm</div>
+            <div class="namero ro2">Giá</div>
+            <div class="namero ro3">Số lượng</div>
+            <div class="namero ro4">Thêm,xoá sản phẩm</div>
+        </div>
+        <div class="form" id="form1">
+            <div class="order-img">
+                <img src="nonamoi/quanao (9).jpg">
+            </div>
+            <div class="order-description">
+                <br>
+                <span class="namesp">Bộ hè thu cotton</span><br />
+            </div>
+            <div class="order-price">
+                <b>170.000</b><br>
+                <label><s>200.000</s> | -12%</label>
+            </div>
+
+            <div class="space-left">
+                <button onclick="tru1()" class="tru1">-</button>
+                <input id="textbox4" value="1" type="input"></input>
+                <button onclick="cong1()" class="cong1">+</button>
+            </div>
+            <div class="order-delete">
+                <a onclick="xoa1()" href="#" class="a">Xóa</a><br />
+
+            </div>
+        </div><br />
+
+        <div class="form" id="form2">
+            <div class="order-img">
+                <img src="nonamoi/quanao (10).jpg">
+            </div>
+            <div class="order-description">
+                <br>
+                <span class="namesp">Bộ hè thu cotton</span><br />
+            </div>
+            <div class="order-price">
+                <b>250.000</b><br>
+                <label><s>280.000</s> | -12%</label>
+            </div>
+            <div class="space-left">
+                <button onclick="tru1()" class="tru2">-</button>
+                <input id="textbox4" value="1" type="input"></input>
+                <button onclick="cong1()" class="cong2">+</button>
+            </div>
+            <div class="order-delete">
+                <a onclick="xoa2()" href="#" class="a">Xóa</a><br />
+            </div>
+        </div><br />
+
+        <div class="form" id="form3">
+            <div class="order-img">
+                <img src="~/Assetsss/images/nonamoi/qa (3).jpg">
+            </div>
+            <div class="order-description">
+                <br />
+                <span class="namesp">Bộ hè thu</span>
+            </div>
+            <div class="order-price">
+                <b>200.000</b><br>
+                <label><s>230.000</s> | -12%</label>
+            </div>
+            <div class="space-left">
+                <button onclick="tru1()" class="tru3">-</button>
+                <input id="textbox4" value="1" type = "input"> </input>
+                <button onclick="cong1()" class="cong3">+</button>
+            </div>
+            <div class="order-delete">
+                <a onclick="xoa3()" href="#" class="a">Xóa</a><br />
+            </div>
+        </div>
+    </div>
+
+    <div id="diachi">
+        <div class="tenten">
+            <span class="tenten1">ĐỊA CHỈ NHẬN HÀNG</span><br />
+            <span class="tenten2">Tên khách hàng:</span><br /> Nguyễn Văn A<br />
+            <span class="tenten2">Nơi nhận:</span><br /> Trung Cư Đặng Xá, Gia Lâm, Hà Nội<br />
+            <span class="tenten2">SĐT: 0123456789
+        </div>
+        <div class="tenten">
+            <span class="tenten2">Mã giảm giá</span><br />
+            <input type="text" name="Email id" id="Email id" />
+            giảm 10% hoá đơn
+        </div>
+        <div class="tenten">
+            Thanh toán:<span class="tinhtong4"> 620.000</span>
+            <h4 id="dathang">Đặt hàng</h4>
+
+        </div>
+    </div>
+    
+
+</div>
+

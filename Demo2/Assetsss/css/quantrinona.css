@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgb(211, 230, 203);
+    width: 100%;
+    height: 120px; 
+    border-bottom: 5px solid rgb(186, 186, 224);  
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header h2{
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 20px;
+    line-height: 90px;
+    width: 10%;
+    float: left;
+}
+.header p{
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 20px;
+    line-height: 90px;
+    width: 10%;
+    float: left;
+    color: rgb(226, 220, 223);
+}
+.header h1{
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 25px;
+    text-align: center;
+    line-height: 90px;
+    width: 80%;
+    float: left;
+}
+.content{
+    width: 100%;
+    height: 1300px;
+    margin-top: 1px;
+    background-image: url('logo/anhnen.png');
+
+    /* height: 600px; */
+}
+.content>.nav{
+   
+    float:left;
+    height: 1000px;
+    width: 20%;
+    background-color: rgb(195, 191, 204);
+}
+.nav>.subnav{
+    width: 100%;
+    height: 400px;
+   
+    padding: 0 0;
+    margin: 0 0;
+    float: left;
+}
+.subnav>li{
+    width: 100%;
+    list-style: none;
+    display: block;
+    background-color: rgb(128, 172, 78);
+}
+.subnav>li>.sla{
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(156, 132, 158);
+}
+.subnav>li>a{
+    display: block;
+    width: 95%;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+.subnav>li>.sla>a{
+    display: block;
+    width: 95%;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    float: left;
+}
+.subnav>li>.sla>i{
+    width: 5%;
+    float: left;
+    color: white;
+    line-height: 40px;
+}
+.subone{
+    display: block;
+    background-color: rgb(77, 143, 105);
+}
+.subone>li{
+    display: block;
+    height: 40px;
+    width: 100%;
+    list-style: none;
+    line-height: 40px;
+}
+.subone>li>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.subone>li:hover>a{
+    color: red;
+}
+.content .main{
+    height: 100%;
+    width: 80%;
+    background-color: white;}
+.order-detail{
+    margin-left: 50px;
+width: 900px;
+height: 700px;
+background-color:rgb(234, 235, 224);
+float:left;}
+
+
+
+.thongtinro{
+width:800px;
+height: 60px;
+background-color:rgb(141, 155, 155);
+color:rgb(80, 24, 85);
+font-size: 18px;
+}
+.formloaihang span
+{
+width: 100%;
+height: 40px;
+background-color:rosybrown;
+}
+.thongtinro2
+{
+    width:900px;
+}
+#sanpham
+{
+    width:1000px;
+}
+.form
+{
+background-color: rgb(34, 88, 34);
+height: 40px;
+}
+
+.namero{
+padding-left: 20px;
+width: 10%;
+height: 60px;
+background-color:rgb(145, 158, 167);
+float:left;
+border-right: 1px solid rgb(209, 221, 37);
+overflow: hidden;
+}
+.ro{
+    padding-top: 20px;
+    background-color: rgb(175, 171, 172);
+    height: 80px;
+    border-right: 0px;
+    border-bottom: 1px solid azure;
+}
+.ro3
+{
+    width:25%;
+}
+.ro4
+{
+    width:25%;
+}
+.ro6
+{
+    width: 20%;
+}
+.do3
+{
+    width:13%;
+}
+.do4{
+    width: 14%;
+}
+.do5
+{
+    width:13%;
+}
+.do5 img{
+    width: 50px;
+}
+
+
+
+
+

@@ -1,0 +1,281 @@
+﻿
+@{
+    ViewBag.Title = "Layout";
+}
+
+<html>
+
+<head>
+    <title>
+        NONASHOP-10119482-minhlan
+    </title>
+
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Assetsss/css/nonashop.css" />
+
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div id="nav1">
+            <a id="logo" href="">
+                <img src="~/Assetsss/images/nonamoi/anhbia3.png" style="height: 58px; border-radius:5px; margin: 0px 0px;" />
+            </a>
+        </div>
+        <div id="nav2">
+            <div class="search">
+                <input id="txt-search" type="text" placeholder="Tìm kiếm">
+                <button id="btn-search"><i class="fas fa-search"></i></button>
+
+            </div>
+        </div>
+
+        <a href="~/GioHang/GioHang" target="_blank">
+            <div class="cart-zone">
+                <i class="fas fa-shopping-cart"
+                   style="font-size: 30px; width: 35px;position: absolute; top:10px;right: 10px; float: left; color: #D43D86 "></i>
+                <label class="cart-amount">12</label>
+            </div>
+        </a>
+
+        <div id="menumoi">
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#"> Bé gái<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="#">Bộ đồ bé gái</a></li>
+                            <li><a href="#">Váy đầm bé gái</a></li>
+                            <li><a href="#">đồ bơi bé gái</a></li>
+                            <li><a href="#">Áo bé gái</a></li>
+                            <li><a href="#">Quần bé gái</a></li>
+                            <li><a href="#">Giầy bé gái</a></li>
+                            <li><a class="showall" href="#">Xem tất cả ></a></li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#"> Bé trai<i class="fas fa-sort-down"></i></a>
+                        <ul id="m1">
+                            <li><a href="betraiNONA.html">Bộ đồ bé trai</a></li>
+                            <li><a href="#">Giầy bé trai</a></li>
+                            <li><a href="#">Đồ bơi bé trai</a></li>
+                            <li><a href="#">Áo bé trai</a></li>
+                            <li><a href="#">Quần bé trai</a></li>
+                            <li><a href="#">Giầy bé trai</a></li>
+                            <li><a class="showall" href="#">Xem tất cả ></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> Phụ kiện<i class="fas fa-sort-down"></i></a>
+                        <ul id="m2">
+                            <li><a href="#">Giầy bé gái</a></li>
+                            <li><a href="#">Giầy bé trai</a></li>
+                            <li><a href="#">nón cho bé</a></li>
+                            <li><a href="#">Balo-túi đeo</a></li>
+                            <li><a href="#">Giầy bé trai</a></li>
+                            <li><a class="showall" href="#">Xem tất cả ></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> Sơ sinh<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="#">Body liền quần</a></li>
+                            <li><a href="#">Bộ sơ sinh</a></li>
+                            <li><a class="showall" href="#">Xem tất cả ></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="lienhe">
+
+        <div id="sdt">
+            <i class="fas fa-phone-volume" style="color:#D43D86; font-size: 25px;"></i>0865797509
+        </div>
+
+        <div id="like">
+            <i class="far fa-kiss-wink-heart" style="color:#D43D86; font-size: 25px"></i><a href="#">yêu thích(99)</a>
+        </div>
+
+        <div id="acccound" style="top: 4px;">
+            Xin chào! Bạn có thể <a href="~/Admin/Login"> Đăng nhập </a> hoặc <a href="~/Admin/Login">
+                Tạo tài khoản
+            </a>
+        </div>
+        @*<div id="acccound" style="top: 4px;">
+
+
+                <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" title="Log in">
+                    <i class="fas fa-user" style="margin: 0px; padding: 0px;font-size:20px; border-radius:40%" ></i>
+                </button>
+
+            </div>*@
+
+
+
+
+    </div>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="overlay">
+                    <!-- LOGN IN FORM by Omar Dsoky -->
+                    <form>
+                        <!--   con = Container  for items in the form-->
+                        <div class="con">
+                            <!--     Start  header Content  -->
+                            <header class="head-form">
+                                <h2>Log In</h2>
+                                <!--     A welcome message or an explanation of the login form -->
+                                <p>login here using your username and password</p>
+                            </header>
+                            <!--     End  header Content  -->
+                            <br>
+                            <div class="field-set">
+
+                                <!--   user name -->
+                                <span class="input-item">
+                                    <i class="fa fa-user-circle"></i>
+                                </span>
+                                <!--   user name Input-->
+                                <input class="form-input" id="txt-input" type="text" placeholder="" required>
+
+                                <br>
+
+                                <!--   Password -->
+
+                                <span class="input-item">
+                                    <i class="fa fa-key"></i>
+                                </span>
+                                <!--   Password Input-->
+                                <input class="form-input" type="password" placeholder="Password" id="pwd" name="password" required>
+
+                                <!--      Show/hide password  -->
+                                <span>
+                                    <i class="fa fa-eye" aria-hidden="true" type="button" id="eye"></i>
+                                </span>
+
+
+                                <br>
+                                <!--        buttons -->
+                                <!--      button LogIn -->
+                                <button class="log-in"> Log In </button>
+                            </div>
+
+                            <!--   other buttons -->
+                            <div class="other">
+                                <!--      Forgot Password button-->
+                                <button class="btn submits frgt-pass">Forgot Password</button>
+                                <!--     Sign Up button -->
+                                <button class="btn submits sign-up">
+                                    Sign Up
+                                    <!--         Sign Up font icon -->
+                                    <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                </button>
+                                <!--      End Other the Division -->
+                            </div>
+
+                            <!--   End Conrainer  -->
+                        </div>
+
+                        <!-- End Form -->
+                    </form>
+                </div>
+                <!-- Modal Header -->
+                <!--<div class="modal-header">
+                    <h4 class="modal-title">Đăng nhập</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>-->
+                <!-- Modal body -->
+                <!--<div class="modal-body">
+                    <h4>Tài khoản</h4>
+                    <h4>Mật khẩu</h4>
+                </div>-->
+                <!-- Modal footer -->
+                <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>-->
+
+            </div>
+        </div>
+    </div>
+
+    @RenderBody()
+
+
+
+    <div id="footer">
+        <div id="footer1">
+            <div class="col-m-3 col-s-4">
+                <h3><b>Chăm sóc khách hàng</b></h3><br />
+                Hotline:<a href=""> 0969.616.209</a><br />
+                Điện thoại:<a href=""> 0969.616.209</a><br />
+                ZALO: <a href="">nona kids</a><br />
+                Làm việc: 8h00 - 17h00 từ Th2 - Th7<br />
+                Địa chỉ: Mỹ Hào - Hưng yênn<br />
+            </div>
+            <div class="col-m-3 col-s-4">
+                <h3>Danh mục sản phẩm</h3><br />
+                <a href="">Quần áo bé trai</a><br />
+                <a href="">Quần áo bé gái</a><br />
+                <a href="">Xem tất cả danh mục</a><br />
+            </div>
+            <div class="col-m-3 col-s-4">
+                <h3>Quy định - Chính sách</h3><br />
+                <a href="">Quy định đổi trả hàng</a><br />
+                <a href="">Chính sách vận chuyển</a><br />
+                <a href="">Về chúng tôi</a><br />
+            </div>
+            <div class="col-m-3 col-s-4" id="face">
+                <a>
+                    <i class=" fab fa-facebook-square"></i>
+                    <b href="Https://www.fb.com/Nonakids.com.vn">Https://www.fb.com/Nonakids.com.vn</b><br>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <b> Toà nhà CT7B,KĐT Đặng Xá Gia Lâm, Hà Nội</b><br>
+                    <i class="fas fa-phone-square"></i>
+                    <b> Zalo,Vibel,Facetime,imessage: 0865.797.509</b><br>
+                </a>
+                <img src="~/Assetsss/images/logo/anhbia2.jpg" />
+            </div>
+            <div class="col-m-12 col-m-12" id="camket">
+                <h2>BÉ XINH SHOP - THỜI TRANG TRẺ EM</h2><br />
+                "Bé xinh shop chuyên bán quần áo trẻ em online Đẹp - Rẻ - Uy Tín tại Hưng yên,
+                giao hàng tận nơi trên Toàn quốc.<br />
+                Cam kết: Hàng chất lượng, mẫu mã đa dạng, đổi trả hàng nếu không vừa ý."<br />
+
+            </div>
+            <div class="col-m-12 col-m-12" id="toptimkiem">
+                TOP TÌM KIẾM: Bộ bé gái đẹp | Đồ bé trai sành điệu | Quần áo trẻ em size đại |
+                Đầm trẻ em đẹp | Quần áo bé đi chơi | Thời trang thu đông | Bộ trẻ em mùa hè<br />
+                <label>
+                    © Bé xinh shop 2020 - Trang mua sắm online <b>
+                        Quan ao tre em, Thoi trang tre em,
+                        Thoi trang cho be
+                    </b>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<script src="~/Assetsss/js/order_slideshow_nona.js"></script>
+<script src="~/Assetsss/js/nonashop.js"></script>
